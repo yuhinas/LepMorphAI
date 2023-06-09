@@ -1,0 +1,23 @@
+
+Dataset: Mississippi Entomological Museum
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: The Lepidoptera collection (EL) of the Muséum national d'Histoire naturelle (MNHN - Paris)
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: C.P. Gillette Museum of Arthropod Diversity
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: NMNH Extant Specimen Records
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: University of Hawaii Insect Museum
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: The Albert J. Cook Arthropod Research Collection
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: University of Tartu Natural History Museum and Botanical Garden Zooloogical Collections
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Entomology Division, Yale Peabody Museum
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Estonian Museum of Natural History Department of Zoology
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Naturalis Biodiversity Center (NL) - Lepidoptera
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Natural History Museum (London) Collection Specimens
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode

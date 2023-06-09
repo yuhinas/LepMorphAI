@@ -1,0 +1,12 @@
+When using this dataset please use the following citation and pay attention to the rights documented in rights.txt:
+Mississippi Entomological Museum (2020). Mississippi Entomological Museum. Occurrence dataset https://doi.org/10.15468/iuhxpw accessed via GBIF.org on 2021-02-03.
+MNHN, Chagnoux S (2021). The Lepidoptera collection (EL) of the Muséum national d'Histoire naturelle (MNHN - Paris). Version 76.201. MNHN - Museum national d'Histoire naturelle. Occurrence dataset https://doi.org/10.15468/ly36kz accessed via GBIF.org on 2021-02-03.
+Colorado State University, C.P. Gillette Museum of Arthropod Diversity (2020). C.P. Gillette Museum of Arthropod Diversity. Occurrence dataset https://doi.org/10.15468/k0aett accessed via GBIF.org on 2021-02-03.
+Orrell T, Informatics Office (2021). NMNH Extant Specimen Records. Version 1.40. National Museum of Natural History, Smithsonian Institution. Occurrence dataset https://doi.org/10.15468/hnhrg3 accessed via GBIF.org on 2021-02-03.
+University of Hawaii (2020). University of Hawaii Insect Museum. Occurrence dataset https://doi.org/10.15468/twdp03 accessed via GBIF.org on 2021-02-03.
+A.J. Cook Arthropod Research Collection (2020). The Albert J. Cook Arthropod Research Collection. Occurrence dataset https://doi.org/10.15468/mtagq6 accessed via GBIF.org on 2021-02-03.
+Soon V. University of Tartu Natural History Museum and Botanical Garden Zooloogical Collections. University of Tartu, Natural History Museum and Botanical Garden. Occurrence dataset https://doi.org/10.15468/6hfnux accessed via GBIF.org on 2021-02-03.
+Gall L (2021). Entomology Division, Yale Peabody Museum. Yale University Peabody Museum. Occurrence dataset https://doi.org/10.15468/95waq3 accessed via GBIF.org on 2021-02-03.
+Lennuk L. Estonian Museum of Natural History Department of Zoology. Estonian Museum of Natural History. Occurrence dataset https://doi.org/10.15468/98cxtc accessed via GBIF.org on 2021-02-03.
+de Vos R, Creuwels J (2021). Naturalis Biodiversity Center (NL) - Lepidoptera. Naturalis Biodiversity Center. Occurrence dataset https://doi.org/10.15468/n4q0sa accessed via GBIF.org on 2021-02-03.
+Natural History Museum (2021). Natural History Museum (London) Collection Specimens. Occurrence dataset https://doi.org/10.5519/0002965 accessed via GBIF.org on 2021-02-03.
