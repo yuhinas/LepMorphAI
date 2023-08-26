@@ -3,6 +3,7 @@ The related pretrained models and data can be downloaded from https://drive.goog
 
 ### main.py
 Train DFC-VSC.
+The training time depends on your hardware.
 
 ### encoding_vsc_repeatN.py 
 Extract 512D features from images.
