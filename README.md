@@ -1,4 +1,5 @@
 ## The deep learning model training and data analyses can be done by running following scripts.
+The related pretrained models and data can be downloaded from https://drive.google.com/drive/folders/1-cvJGtQ5b_H3--fpuFWkkfw4V0zWrllh?usp=drive_link
 
 ### main.py
 Train DFC-VSC.
