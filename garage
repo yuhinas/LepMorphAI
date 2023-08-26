@@ -1,0 +1,240 @@
+moth_geometry_with_meta = pd.read_csv(f'{pca_path}/moth_geometry_with_meta.csv', sep='\t')
+
+(np.log(fam_sp_meta.family_sp_count.values) * 10).astype(int)
+
+moth_geometry_with_meta.Goldstein2017
+
+for x_axis in range(0,2):
+    for y_axis in range(1,3):
+        if y_axis > x_axis:
+            texts = []
+            print(x_axis, y_axis)
+            plt.close(); fig_, ax_ = plt.subplots(figsize=(21, 21), dpi=dpi)
+            #plt.subplots_adjust(left=0.2, right=0.8, bottom=0.2, top=0.8)
+            plt.xticks(fontsize=ax_fontsize)
+            plt.yticks(fontsize=ax_fontsize)
+            plt.xlabel(f'PC {x_axis+1}', fontsize=ax_fontsize+2)
+            plt.ylabel(f'PC {y_axis+1}', fontsize=ax_fontsize+2)
+            ax_width, ax_height = get_ax_size(fig_, ax_)
+            # set figure span from -3 to 3
+            plt.xlim(-3, 3)
+            plt.ylim(-3, 3)
+            plt.scatter(X_dr_for_1d[:,x_axis], X_dr_for_1d[:,y_axis], s=(np.sqrt(np.log(fam_sp_meta.family_sp_count.values) * 1)).astype(int)*100, edgecolor='gray', linewidth=1, c=color_map_for_1d)
+            for _, row in X_dr_for_1d_df.iterrows():
+                if row.family in fams_with_n_sp_top20:
+                    texts.append(plt.text(row.iloc[x_axis], row.iloc[y_axis], row.family, fontsize=20))
+            adjust_text(texts, only_move={'texts':'xy'}, arrowprops=dict(arrowstyle="-", color='lightgray', lw=1))
+            plt.savefig(pca_path + f'/fam_mean/fam_mean_pca_h7_pc{x_axis+1}{y_axis+1}_top20fam.pdf')
+            plt.savefig(pca_path + f'/fam_mean/fam_mean_pca_h7_pc{x_axis+1}{y_axis+1}_top20fam.png')
+            plt.close()
+
+
+texts = []
+plt.close()
+ax_fontsize=7
+plt.figure(figsize=(15,15), dpi=300)
+moth_geometry = pd.read_csv(f'{pca_path}/moth_geometry.csv', sep='\t')
+plt.xticks(fontsize=ax_fontsize)
+plt.yticks(fontsize=ax_fontsize)
+plt.ylabel('Aspect Ratio (AR)', fontsize=ax_fontsize+1)
+plt.xlabel('Second Moment of Area (2nd MoA)', fontsize=ax_fontsize+1)
+plt.scatter(moth_geometry.nd2ndMoA_root_on_right, moth_geometry.aspect_ratio, s=(np.sqrt(np.log(fam_sp_meta.family_sp_count.values) * 1)).astype(int)*100, edgecolor='gray', linewidth=1, c=color_map_for_1d)
+
+for _, row in moth_geometry.iterrows():
+    if row.img_file[:-4] in fams_with_n_sp_top20:
+        texts.append(plt.text(row.nd2ndMoA_root_on_right, row.aspect_ratio, row.img_file[:-4], fontsize=ax_fontsize))
+    #elif get_fam_color(row.img_file[:-4])=='#987ea7':
+    #    texts.append(plt.text(row.nd2ndMoA_root_on_right, row.aspect_ratio, row.img_file[:-4], fontsize=20))
+    elif row.img_file[:-4] in ['Sphingidae', 'Cossidae', 'Hepialidae']:
+        texts.append(plt.text(row.nd2ndMoA_root_on_right, row.aspect_ratio, row.img_file[:-4], fontsize=ax_fontsize))
+
+adjust_text(texts, only_move={'texts':'xy'}, arrowprops=dict(arrowstyle="-", color='lightgray', lw=1))
+
+plt.savefig(pca_path + f'/fam_mean/family_mean_wing_geometry.png')
+plt.savefig(pca_path + f'/fam_mean/family_mean_wing_geometry.pdf')
+plt.close()
+
+
+
+
+dpi = 200
+ax_fontsize = 18
+for x_axis in range(0,2):
+    for y_axis in range(1,3):
+        if y_axis > x_axis:
+            print(x_axis, y_axis)
+            plt.close(); fig_, ax_ = plt.subplots(figsize=(20, 20), dpi=dpi)
+            plt.subplots_adjust(left=0.2, right=0.8, bottom=0.2, top=0.8)
+            plt.xticks(fontsize=ax_fontsize)
+            plt.yticks(fontsize=ax_fontsize)
+            ax_width, ax_height = get_ax_size(fig_, ax_)
+            # set figure span from -3 to 3
+            plt.xlim(-3, 3)
+            plt.ylim(-3, 3)
+            plt.scatter(X_dr_for_1d[:,x_axis], X_dr_for_1d[:,y_axis], s=20)
+            for _, row in X_dr_for_1d_df.iterrows():
+                if row.family in fams_with_n_sp_top20[:10]:
+                    plt.text(row.iloc[x_axis], row.iloc[y_axis], row.family, fontsize=18)
+            exp_ratio = pca_for_1d.explained_variance_ratio_[x_axis] + pca_for_1d.explained_variance_ratio_[y_axis]
+            #plt.savefig(pca_path + f'/fam_mean/fam_mean_pca_{x_axis}_{y_axis}_{exp_ratio * 100:.01f}.png')
+            #fig_.figimage(im_, 0, fig_.bbox.ymax)
+            minor_rescale = 8 / 7
+            win_width = fig_.get_figwidth() * fig_.dpi
+            win_height = fig_.get_figheight() * fig_.dpi
+            im_1 = Image.open(pca_path + f'/fam_mean/pca_h{num_of_steps:d}_axis_{x_axis+1}.jpg')
+            im_1_resized = im_1.resize((int(ax_width * minor_rescale), int(im_1.height / im_1.width * ax_width * minor_rescale)))
+            fig_.figimage(np.array(im_1_resized), (win_width - ax_width * minor_rescale)//2 + 0 * ax_fontsize/72*dpi, (win_width - ax_width * minor_rescale)//2 - im_1_resized.height - 0 * ax_fontsize/72*dpi)
+            im_2 = Image.open(pca_path + f'/fam_mean/pca_h{num_of_steps:d}_axis_{y_axis+1}.jpg')
+            im_2_resized = im_2.resize((int(ax_width * minor_rescale), int(im_2.height / im_2.width * ax_width * minor_rescale)))
+            im_2_resized_rotated = im_2_resized.rotate(90, expand=True)
+            fig_.figimage(np.array(im_2_resized_rotated), (win_width - ax_width * minor_rescale)//2 - im_2_resized_rotated.width - 0 * ax_fontsize/72*dpi, (win_width - ax_width * minor_rescale)//2 - 0 * ax_fontsize/72*dpi)
+            plt.savefig(pca_path + f'/fam_mean/fam_mean_pca_h7_pc{x_axis+1}{y_axis+1}_top10fam.png')
+            plt.close()
+            #plt.show()
+
+
+# k_counts_stds = []
+# k_sims_means = []
+# k_sims_stds = []
+# k_io_ratios_means = []
+# k_io_ratios_stds = []
+# for permutation_clades_ in permutation_clades:
+#     k_names = np.empty(K, dtype=object)
+#     for k_ in range(1, K):
+#         k_names[k_ - 1] = list_difference([c.name for c in permutation_clades_[k_ - 1].get_terminals()], [c.name for c in permutation_clades_[k_].get_terminals()])
+#     k_names[K - 1] = [c.name for c in permutation_clades_[K - 1].get_terminals()]
+#     k_counts = []
+#     k_sims = []
+#     k_io_ratios = []
+#     for k_name in k_names:
+#         k_ids = [np.where(fams == k_name_)[0][0] for k_name_ in k_name]
+#         not_k_ids = [np.where(fams == k_name_)[0][0] for k_name_ in fams if k_name_ not in k_name]
+#         k_ids_len = len(k_ids)
+#         k_counts.append(len(k_ids))
+#         i_dm = fam_to_tree_dm.data[k_ids][:, k_ids]
+#         i_dm_ut = i_dm[np.triu_indices(k_ids_len, 1)]
+#         k_sim = np.mean(i_dm_ut)
+#         #k_sim = whiskers_min_and_max(i_dm_ut)[2]
+#         # k_sim = i_dm.sum() / (k_ids_len * (k_ids_len - 1)) / 2
+#         k_sims.append(k_sim)
+#         o_dm = fam_to_tree_dm.data[k_ids][:, not_k_ids]
+#         o_sim = np.mean(o_dm)
+#         k_io_ratios.append(k_sim / o_sim)
+#         #k_io_ratios.append(k_sim / whiskers_min_and_max(o_dm)[2])
+#     k_counts_stds.append(np.std(k_counts))
+#     k_sims_means.append(np.mean(k_sims))
+#     k_sims_stds.append(np.std(k_sims))
+#     k_io_ratios_means.append(np.mean(k_io_ratios))
+#     k_io_ratios_stds.append(np.std(k_io_ratios))
+
+
+
+def hex_(n):
+    if n < 16:
+        return '0' + hex(n)[-1:]
+    else:
+        return hex(n)[-2:]
+
+def printHexColor():
+    print(
+        '#' + hex_(225) + hex_(223) + hex_(205), #'White' 0
+        '#' + hex_(122) + hex_(189) + hex_(199), #'LightSteelBlue' 1
+        '#' + hex_(152) + hex_(126) + hex_(167), #'DarkSeaGreen' 2
+        '#' + hex_(132) + hex_(158) + hex_(115), #'LightSalmon' 3
+        '#' + hex_(231) + hex_(199) + hex_(52), #'Moccasin' 4
+        '#' + hex_(253) + hex_(136) + hex_(137) #'Violet' 5
+    )
+
+printHexColor()
+
+
+
+df_picked_fam_mean_no_neg_ = codes_to_no_neg(df_fam_mean.iloc[:,1:].values.copy())
+df_picked_fam_mean_no_neg = np.zeros_like(df_picked_fam_mean_no_neg_)
+for row_id in range(df_fam_mean.shape[0]):
+    df_picked_fam_mean_no_neg[row_id][features_voted_unions] = df_picked_fam_mean_no_neg_[row_id][features_voted_unions]
+
+df_picked_fam_mean = codes_to_with_neg(df_picked_fam_mean_no_neg)
+
+df_picked_fam_mean = df_fam_mean.copy()
+df_picked_fam_mean = df_picked_fam_mean.iloc[:,1:].values
+
+fams_no_ul = np.array([subfam.replace(u'\xa0', '').replace('_', '') for subfam in np.unique(df.family)])
+sp_nearest = False
+for clade in clades:
+    leaves_of_clade = clade.get_terminals()
+    #lead_ids = []
+    #for leaf in leaves_of_clade:
+    #    lead_ids.append(np.where(np.array(subfams_no_ul) == leaf.name)[0][0])
+    leaf_ids = [np.where(fams_ == leaf.name)[0][0] for leaf in leaves_of_clade]
+    lead_id_iloc = [np.where(df_fam_mean.fam_id == lid)[0][0] for lid in leaf_ids]
+    ### clade subfam mean
+    #subfam_of_clade = df_subfam_mean.iloc[lead_id_iloc,1:].values
+    fam_of_clade = df_picked_fam_mean[lead_id_iloc]
+    if fam_of_clade.shape[0] == 1:
+        g_code_ = fam_of_clade[0]
+    elif fam_of_clade.shape[0] > 1:
+        dist_of_clade_to_each_fam = np.array([clade.distance(leaf.name) for leaf in leaves_of_clade])
+        if dist_of_clade_to_each_fam.sum() == 0:
+            dist_of_clade_to_each_fam = np.array([len(clade.get_path(leaf.name)) for leaf in leaves_of_clade])
+        dist_of_clade_to_each_fam_scaled = scaler.fit_transform(dist_of_clade_to_each_fam.reshape(-1,1)).reshape(-1)
+        m_top = dist_of_clade_to_each_fam_scaled.prod()
+        m_bottom_ = m_top / dist_of_clade_to_each_fam_scaled
+        m_bottom = m_bottom_.sum()
+        m = m_top / m_bottom
+        g_code_ = ((m / dist_of_clade_to_each_fam_scaled).reshape(-1,1) * fam_of_clade).sum(axis=0)
+    ### nearest sp point to the average
+    if sp_nearest:
+        sp_of_clade = df_sp_mean[[fid in leaf_ids for fid in df_sp_mean.fam_id]].iloc[:,:512]
+        g_code = sp_of_clade.values[np.argmin(pairwise_distances(np.array([g_code_]), sp_of_clade.values))]
+    ### or just use the mean value
+    else:
+        g_code = g_code_    
+    g_codes_npy = np.array([g_code])
+    g_codes_cuda = torch.from_numpy(g_codes_npy).float().cuda()
+    with torch.no_grad():
+        imgs = model.decode(g_codes_cuda)
+    imgs_numpy = imgs.data.cpu().numpy().transpose(0,2,3,1)
+    #resized_img = cv2.resize(imgs_numpy[0], (256, 171), interpolation=cv2.INTER_AREA)
+    resized_img = imgs_numpy[0]
+    io.imsave(nj_clade_viz_dir + '/%s.jpg' % clade.name, resized_img)
+
+
+mm = pd.read_csv('C:/Users/gsmai/Documents/GitHub/moth_rmbg/download_with_gbif/0181605-200613084148143/multimedia.csv', sep='\t')
+del mm
+oc = pd.read_csv('C:/Users/gsmai/Documents/GitHub/moth_rmbg/download_with_gbif/0181605-200613084148143/occurrence.txt', sep='\t')
+mm_si = mm[mm.type=='StillImage']
+mm_si_simple = mm_si[['gbifID', 'identifier']]
+
+btf = ['Papilionidae','Nymphalidae','Riodinidae','Lycaenidae','Pieridae','Hesperiidae', 'Hedylidae']
+oc_btf = oc[oc.family.isin(btf)]
+oc_btf = oc_btf.iloc[:,0:1]
+
+oc_mm_si = oc_btf.merge(mm_si_simple)
+oc.sex
+oc_mm_si.unique()
+
+
+families_with_phylodata = pd.read_csv('fam_in_2019_gbif_WUver2_20220513.csv').family.values
+before_sp_burst = ['Tineidae', 'Psychidae', 'Prodoxidae', 'Adelidae', 'Nepticulidae', 'Hepialidae', 'Eriocraniidae']
+hv_before_sp_burst = []
+hv_after_sp_burst = []
+len(before_sp_burst)
+bsp_count = 0
+for fam_ in fams:
+    if fam_ not in families_with_phylodata:
+        continue
+    if fam_ in before_sp_burst:
+        #print(fam_)
+        hv_before_sp_burst.append(f'hv_{fam_.lower()}')
+        bsp_count += 1
+    else:
+        hv_after_sp_burst.append(f'hv_{fam_.lower()}')
+
+bsp_count
+
+
+len(hv_before_sp_burst)
+len(hv_after_sp_burst)
+
+', '.join(hv_after_sp_burst)
