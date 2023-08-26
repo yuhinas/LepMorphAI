@@ -19,6 +19,7 @@ from resnet50_classifier import ResNet50_family_classifier_notop
 from math import log10
 import torchvision
 from torchvision.utils import make_grid, save_image
+from touch_dir import touch_dir
 
 from average_meter import AverageMeter
 import glob
@@ -74,19 +75,19 @@ parser.add_argument('--channels', default="32, 64, 128, 256, 512, 512", type=str
 parser.add_argument("--hdim", type=int, default=512, help="dim of the latent code, Default=512")
 parser.add_argument("--save_iter", type=int, default=1, help="Default=1")
 parser.add_argument("--test_iter", type=int, default=2000, help="Default=1000")
-parser.add_argument('--nrow', type=int, help='the number of images in each row', default=6)
+parser.add_argument('--nrow', type=int, help='the number of images in each row', default=8)
 
-parser.add_argument('--dataroot', default="./wolrdwide_lepidoptera_yolov4_cropped_and_padded_20210407", type=str, help='path to dataset')
+parser.add_argument('--dataroot', default="./lep_photos_demo", type=str, help='path to dataset')
 
 parser.add_argument('--trainsize', type=int, help='number of training data', default=-1)
 parser.add_argument('--workers', type=int, help='number of data loading workers', default=4)
-parser.add_argument('--batchSize', type=int, default=32, help='input batch size')
+parser.add_argument('--batchSize', type=int, default=8, help='input batch size')
 parser.add_argument('--input_height', type=int, default=256, help='the height  of the input image to network')
 parser.add_argument('--input_width', type=int, default=256, help='the width  of the input image to network')
 parser.add_argument('--output_height', type=int, default=256, help='the height  of the output image to network')
 parser.add_argument('--output_width', type=int, default=256, help='the width  of the output image to network')
 parser.add_argument("--nEpochs", type=int, default=50000, help="number of epochs to train for")
-parser.add_argument("--num_vsc", type=int, default=0, help="number of epochs to for vsc training")
+parser.add_argument("--num_vsc", type=int, default=10, help="number of epochs to for vsc training")
 parser.add_argument("--start_epoch", default=0, type=int, help="Manual epoch number (useful on restarts)")
 parser.add_argument('--lr', type=float, default=0.0002, help='learning rate, default=0.0002')
 parser.add_argument('--beta1', type=float, default=0.9, help='beta1 for adam. default=0.5')
@@ -176,18 +177,19 @@ def main():
     #-----------------load dataset--------------------------
     image_list = [x for x in glob.iglob(opt.dataroot + '/**/*', recursive=True) if is_image_file(x)]
     #train_list = image_list[:opt.trainsize]
-    # train_list = image_list[:]
+    train_list = image_list[:]
     # assert len(train_list) > 0
     
-    image_cache = np.load('./wolrdwide_lepidoptera_yolov4_cropped_and_padded.npy', allow_pickle=True)
+    # image_cache = np.load('./wolrdwide_lepidoptera_yolov4_cropped_and_padded.npy', allow_pickle=True)
     
-    # train_set = ImageDatasetFromFile(train_list, aug=True)
-    train_set = ImageDatasetFromCache(image_cache, aug=True)
+    train_set = ImageDatasetFromFile(train_list, aug=True)
+    # train_set = ImageDatasetFromCache(image_cache, aug=True)
     
     #dfc_data_loader = torch.utils.data.DataLoader(train_set, batch_size=(opt.batchSize // 8) * 3, shuffle=True, num_workers=int(opt.workers), drop_last=True, pin_memory=True)
     dfc_data_loader = torch.utils.data.DataLoader(train_set, batch_size=opt.batchSize, shuffle=True, num_workers=int(opt.workers), drop_last=True, pin_memory=True)
     vsc_data_loader = torch.utils.data.DataLoader(train_set, batch_size=opt.batchSize, shuffle=True, num_workers=int(opt.workers), drop_last=True, pin_memory=True)
     
+    touch_dir('./benchmarks')
     valid_list = ['./benchmarks/' + x for x in os.listdir('./benchmarks') if is_image_file(x)]
     valid_set = ImageDatasetFromFile(valid_list, aug=False)
     valid_data_loader = torch.utils.data.DataLoader(valid_set, batch_size=opt.batchSize, shuffle=False, num_workers=int(opt.workers))
@@ -311,8 +313,8 @@ def main():
         with torch.no_grad():
             real = Variable(batch).cuda() 
             real_mu, real_logvar, real_logspike, z, rec = vsc_model(real)
-            vutils.save_image(torch.cat([real[:30], rec[:30]], dim=0).data.cpu(), './results/dfc_valid/image_epoch_{}.jpg'.format(epoch),nrow=10)
-            vutils.save_image(torchvision.transforms.Resize(128)(torch.cat([real[:30], rec[:30]], dim=0)).data.cpu(), './results/dfc_valid/image128_epoch_{}.jpg'.format(epoch),nrow=10)
+            vutils.save_image(torch.cat([real[:16], rec[:16]], dim=0).data.cpu(), './results/dfc_valid/image_epoch_{}_{}.jpg'.format(epoch, iteration),nrow=8)
+            vutils.save_image(torchvision.transforms.Resize(128)(torch.cat([real[:16], rec[:16]], dim=0)).data.cpu(), './results/dfc_valid/image128_epoch_{}_{}.jpg'.format(epoch, iteration),nrow=8)
 
     
     #----------------Train by epochs--------------------------
