@@ -1,0 +1,355 @@
+1-exp((-2*0.0013/0.2))
+1-exp((-2*0.0013/0.002))
+1-exp((-2*0.013/0.02))
+1-exp((-2*0.001365/0.01679))
+0.001365/10E-9
+136500*3
+0.000771*4/(6*10E-9)
+6*10E-9
+6E-9
+0.000771*4/(6E-9)
+0.000557*4/(6E-9)
+0.001017*4/(6E-9)
+6e-9
+6e-9==0.0000000006
+6e-9==0.000000006
+0.002416/4
+0.000604/3e-9
+(0.5*(1-0.95))/(0.95*(1-0.5))
+(0.9*(1-0.95))/(0.95*(1-0.9))
+(1*(1-0.95))/(0.95*(1-1))
+(0.9*(1-0.05))/(0.05*(1-0.9))
+(0.5*(1-0.05))/(0.05*(1-0.5))
+(0.3*(1-0.05))/(0.05*(1-0.3))
+(0.2*(1-0.05))/(0.05*(1-0.2))
+(0.1*(1-0.05))/(0.05*(1-0.1))
+0.002416/4/3E-9
+(0.002416/4)/3E-9
+(0.001194/4)/3E-9
+(0.003841/4)/3E-9
+(0.002624/4)/3E-9
+(0.001516/4)/3E-9
+(0.003828/4)/3E-9
+8000/26000
+(0.3076923*0.95)/(0.05*(1-0.3076923))
+(0.3076923*0.9)/(0.1*(1-0.3076923))
+0.6*0.5/(0.5*0.4)
+dpois(100,0.693)
+test<-rpois(1000,0.693)
+hist(test)
+plot(density(test))
+0.6085*(1-0.693)/(0.693(1-0.6058))
+0.6085*(1-0.693)/(0.693*(1-0.6058))
+0.6101*(1-0.693)/(0.693*(1-0.6101))
+16500+11500+3500
+16500/31500
+11500/31500
+3500/31500
+0.52+0.37
+155*4
+124095/1.5
+install.packages(c("cowplot", "googleway", "ggplot2", "ggrepel", #
+"ggspatial", "libwgeom", "sf", "rnaturalearth", "rnaturalearthdata")
+)
+library("ggplot2")
+ggplot(data = world) +#
+    geom_sf() +#
+    coord_sf(xlim = c(-102.15, -74.12), ylim = c(7.65, 33.97), expand = FALSE)
+theme_set(theme_bw())#
+library("sf")
+library("rnaturalearth")#
+library("rnaturalearthdata")#
+#
+world <- ne_countries(scale = "medium", returnclass = "sf")#
+class(world)
+ggplot(data = world) +#
+    geom_sf()
+ggplot(data = world) +#
+    geom_sf() +#
+    coord_sf(xlim = c(-102.15, -74.12), ylim = c(7.65, 33.97), expand = FALSE)
+ggplot(data = world) +#
+    geom_sf() +#
+    coord_sf(xlim = c(102.15, 74.12), ylim = c(10, 25), expand = FALSE)
+ggplot(data = world) +#
+    geom_sf() +#
+    coord_sf(xlim = c(-102.15, -74.12), ylim = c(7.65, 33.97), expand = FALSE)
+ggplot(data = world) +#
+    geom_sf() +#
+    coord_sf(xlim = c(-102.15, -74.12), ylim = c(10, 25), expand = FALSE)
+ggplot(data = world) +#
+    geom_sf() +#
+    coord_sf(xlim = c(70, 100), ylim = c(10, 25), expand = FALSE)
+ggplot(data = world) +#
+    geom_sf() +#
+    coord_sf(xlim = c(110, 130), ylim = c(10, 25), expand = FALSE)
+ggplot(data = world) +#
+    geom_sf() +#
+    coord_sf(xlim = c(110, 130), ylim = c(0, 30), expand = FALSE)
+ggplot(data = world) +#
+    geom_sf() +#
+    coord_sf(xlim = c(110, 130), ylim = c(5, 28), expand = FALSE)
+ggplot(data = world) +#
+    geom_sf() +#
+    coord_sf(xlim = c(110, 130), ylim = c(5, 26), expand = FALSE)
+library("ggspatial")#
+ggplot(data = world) +#
+    geom_sf() +#
+    annotation_scale(location = "bl", width_hint = 0.5) +#
+    annotation_north_arrow(location = "bl", which_north = "true", #
+        pad_x = unit(0.75, "in"), pad_y = unit(0.5, "in"),#
+        style = north_arrow_fancy_orienteering) +#
+    coord_sf(xlim = c(115, 125), ylim = c(5, 26))
+library("ggspatial")#
+ggplot(data = world) +#
+    geom_sf() +#
+    annotation_scale(location = "bl", width_hint = 0.5) +#
+    annotation_north_arrow(location = "bl", which_north = "true", #
+        pad_x = unit(0.75, "in"), pad_y = unit(0.5, "in"),#
+        style = north_arrow_fancy_orienteering) +#
+    coord_sf(xlim = c(110, 130), ylim = c(5, 26))
+8/175
+3/50
+9/102
+mean(c(90,86,87))
+1-exp((-2*(0.0013/0.021)))
+1-exp((-2*(0.0013/0.014)))
+1-exp((-2*(0.00159/0.0198)))
+1-exp((-2*(0.00159/0.0038)))
+38/50
+8/175
+35/166
+5500*3
+57*6
+9.3*40
+plot(1:10,1:10,xlim=c(-5,5),ylim=c(0,10),type="n",xlab="",ylab="",xaxt="n",yaxt="n")#
+rect(-1,0,1,2,col="tan3",border="tan4",lwd=3)#
+polygon(c(-5,0,5),c(2,4,2),col="palegreen3",border="palegreen4",lwd=3)#
+polygon(c(-4,0,4),c(3.5,5.5,3.5),col="palegreen4",border="palegreen3",lwd=3)#
+polygon(c(-3,0,3),c(5,6.5,5),col="palegreen3",border="palegreen4",lwd=3)#
+polygon(c(-2,0,2),c(6.25,7.5,6.25),col="palegreen4",border="palegreen3",lwd=3)#
+points(x=runif(4,-5,5),y=rep(2,4),col=sample(c("blue","red"),size=4,replace=T),cex=3,pch=19)#
+points(x=runif(4,-4,4),y=rep(3.5,4),col=sample(c("blue","red"),size=4,replace=T),cex=3,pch=19)#
+points(x=runif(4,-3,3),y=rep(5,4),col=sample(c("blue","red"),size=4,replace=T),cex=3,pch=19)#
+points(x=runif(4,-2,2),y=rep(6.25,4),col=sample(c("blue","red"),size=4,replace=T),cex=3,pch=19)#
+points(0,7.5,pch=8,cex=5,col="gold",lwd=3)#
+xPres = runif(10,-4.5,4.5)#
+xWidth = runif(10,0.1,0.5)#
+xHeight=runif(10,0,1)#
+for(i in 1:10){#
+rect(xPres[i]-xWidth[i],0,xPres[i]+xWidth[i],xHeight[i],col=sample(c("blue","red"),size=1))#
+rect(xPres[i]-0.2*xWidth[i],0,xPres[i]+0.2*xWidth[i],xHeight[i],col=sample(c("gold","grey87"),size=1))#
+}
+3/15
+devtools::install_github(#
+ "diyabc/diyabcGUI",#
+ subdir = "R-pkg"#
+)
+400*20
+12/175
+7.18*40
+x_length <-c(672,156,1536,684,786,1143,945,1011,345,1338,291,1713,474,1227,677)
+y_psites <- c(82,13,162,63,89,133,111,109,32,157,27,189,74,59,21)
+plot(x_length,y_psites)
+plot(x_length,y_psites, xlab='Length of sequence alignments', ylab='Number of parsimony informative sites')
+x_rrna <- c(1227,677)
+y_rrna <- c(59,21)
+points(x_rrna,y_rrna, col ='red')
+points(x_rrna,y_rrna, col ='red',pch =19)
+plot(x_length,y_psites, xlab='Length of sequence alignments', ylab='Number of parsimony informative sites')
+SHu <- c(0.151,0.0873,0.214,0.0581,0.025,0.314,0.042,0.0195,0.433,0.0216,0.302,0.0133,0.0865,0.0874,0.201)
+AUu<-c(0.136,0.0455,0.207,0.0377,0.0151, 0.348,0.0385,0.00724,0.439,0.0159,0.313,0.00528,0.0583,0.0624,0.179)
+plot(y_psites,AUu)
+plot(y_psites,AUu, xlab='Number of parsimony informative sites', ylab='p-values')
+points(y_psites, SHu, pch = 3)
+points(y_psites, SHu, pch = 1)
+points(y_psites, SHu, pch = 2)
+points(y_psites, SHu, pch = 4)
+plot(y_psites,AUu, xlab='Number of parsimony informative sites', ylab='p-values')
+points(y_psites, SHu, pch = 4)
+points(y_psites, SHu, pch = 3)
+AUu<-c(0.136,0.0455,0.207,0.0377,0.0151, 0.348,0.0385,0.00724,0.439,0.0159,0.313,0.00528,0.0583,0.0624,0.179)
+SHu <- c(0.151,0.0873,0.214,0.0581,0.025,0.314,0.042,0.0195,0.433,0.0216,0.302,0.0133,0.0865,0.0874,0.201)
+y_psites <- c(82,13,162,63,89,133,111,109,32,157,27,189,74,59,21)
+plot(y_psites,AUu, xlab='Number of parsimony informative sites', ylab='p-values')
+points(y_psites, SHu, pch = 4)
+points(y_psites, SHu, pch = 3)
+abline(h=0.05,col='red')
+points(162,0.207,col='red')
+points(162,0.214,col='red',pch=3)
+points(162,0.214,col='red',pch=4)
+17813-14712
+72*60
+206*20
+8000/28000
+8000/24000
+dnds <- c(0.04036,0.09067,0.00423,0.02454,0.01971,0.02283,0.01285,0.05026,0.06997,0.02944,0.0037,0.02278,0.04902)
+AU <- c(0.136,0.0455,0.207,0.0377,0.0151,0.348,0.0385,0.00724,0.439,0.0159,0.313,0.00528,0.0583)
+plot(dnds,AU)
+plot(dnds,AU,xlab='dn/ds',ylab='p-value (AUtest)')
+plot(dnds,AU,xlab='dn/ds',ylab='p-value (AU-test)')
+concor <- c(672,1536,945,1011,1713,474)
+noncon <- c(156,684,786,1143,345,1338,291)
+t.test(concor,noncor)
+t.test(concor,noncon)
+monophy <- c(672,156,1536,1143,945,1011,345,1338,1713,474)
+nonmono <- c(684,786,291)
+t.test(monophy,nonmono)
+151-82
+74*40
+2.4*0.22
+install.packages("devtools")
+devtools::install_github(repo = "pbastide/PhylogeneticEM", ref = "develop")
+library(BAMMtools);#
+comp.tree <- read.tree('moth.tre');#
+comp.edata <- getEventData(comp.tree, eventdata = 'event_data.txt', burnin = 0.5);
+6/102
+0.25*2.41
+0.4*2.41
+38/177
+47/176
+109/0.9
+47.5/0.9
+92/0.9
+719/818
+3.6*40
+2.5*0.7
+2.5*0.3
+2.5*0.2
+2.41*0.3
+2.41*0.2
+10/72
+(556/2)/1533
+0.1813/110
+4.28*40
+16.48*40
+4.5/150
+4500/150
+30000000/3000
+30000000/(3000*100)
+7.5*72
+48*40
+library(vegan)
+data(varespec)
+vare.dist<-vegdist(wisconsin(varespec))
+mds.null <- monoMDS(vare.dist,y=cmdscale(vare.dist))
+mds.alt <- monoMDS(vare.dist)
+mds.null
+mds.alt
+vare.proc <- procrustes(mds.alt,mds.null)
+summary(vare.proc)
+plot(vare.proc)
+plot(vare.proc,kind=2)
+protest(mds.alt,mds.null)
+plot(vare.proc)
+-2*(-103.631)+2
+-2*(-92.138)+2*15
+-2*(-85.085)+2*30
+library(geiger)
+aicw(209.262,214.276,230.17)
+aicw(c(209.262,214.276,230.17))
+devtools::install_github("AnushaPB/wingen", build_vignettes = TRUE)
+library(wingen)
+install.packages('Pandoc')
+install.packages('pandoc')
+devtools::install_github("AnushaPB/wingen", build_vignettes = TRUE)
+install.packages('wingen')
+241/152.332
+50*(241/152.332)
+527.825-79.10354
+50*(152.332/241)
+527.825-31.60415
+527.825-31.60415*2
+527.825-31.60415*3
+527.825-31.60415*4
+211.59-31.60415
+211.59-31.60415*2
+211.59-31.60415*3
+211.59-31.60415*4
+844.061-31.60415
+844.061-31.60415*2
+844.061-31.60415*3
+844.061-31.60415*4
+50*(224.296/241)
+283.553-46.53444
+283.553-46.53444*2
+283.553-46.53444*3
+283.553-46.53444*4
+241*0.8
+241-192.8
+599.789-46.53444
+599.789-46.53444*2
+599.789-46.53444*3
+599.789-46.53444*4
+916.024-46.53444
+916.024-46.53444*2
+916.024-46.53444*3
+916.024-46.53444*4
+222.064*0.8
+library(inbreedR)
+data("mouse_msats")
+mouse_microsats <- convert_raw(mouse_msats)
+g2_mouse_microsats <- g2_microsats(mouse_microsats, nperm = 100, nboot = 100, CI = 0.95)
+g2_mouse_microsats
+plot(g2_mouse_microsats, main = "Microsatellites",#
+     col = "cornflowerblue", cex.axis=0.85)
+install.packages('dispRity')
+library(dispRity)
+comp.tree <- read.tree('moth.tre');
+comp.tree <- read.tree('moth.tre');
+my_FADLAD <- i.need.FADLAD(comp.tree)
+i.need.FADLAD <- function(tree) {#
+    tree_ages <- tree.age(tree)[1:Ntip(tree),]#
+    return(data.frame(FAD = tree_ages[,1], LAD = tree_ages[,1], row.names = tree_ages[,2]))#
+}
+my_FADLAD <- i.need.FADLAD(comp.tree)
+my_FADLAD
+install.packages("Claddis", dependencies = TRUE)
+library(Claddis)
+time_tree <- ape::read.tree(text = paste0("(Biarmosuchus_tener:0.5,",#
+"(((Hipposaurus_boonstrai:3.5,(Bullacephalus_jacksoni:0.75,",#
+"Pachydectes_elsi:0.75):0.75):0.75,(Lemurosaurus_pricei:7.166666667,",#
+"(Lobalopex_mordax:4.333333333,((Lophorhinus_willodenensis:3.666666667,",#
+"(Proburnetia_viatkensis:0.8333333333,(Lende_chiweta:2,",#
+"(Paraburnetia_sneeubergensis:1,Burnetia_mirabilis:2):1):1.833333333)",#
+":0.8333333333):0.8333333333,(BP_1_7098:2.25,Niuksenitia_sukhonensis:",#
+"1.25):1.25):0.8333333333):0.8333333333):3.083333333):1.95,",#
+"(Ictidorhinus_martinsi:15.9,(RC_20:11.6,(Herpetoskylax_hopsoni:11.3,",#
+"Lycaenodon_longiceps:0.3):0.3):0.3):0.3):0.3);"))
+time_tree$root.time <- 269.5
+cladistic_matrix <- prune_cladistic_matrix(#
+cladistic_matrix = day_2016,#
+blocks2prune = 1#
+)
+test_rates_output <- test_rates(#
+time_tree = time_tree,#
+cladistic_matrix = cladistic_matrix,#
+time_partitions = partition_time_bins(n_time_bins = 9),#
+time_bins = seq(from = 270, to = 252, length.out = 10)#
+)
+plot_rates_time(#
+test_rates_output = test_rates_output,#
+model_number = 97, units = "Stage", cex.ts = 1, cex.age = 1,#
+abbrev = "Stage"#
+)
+test_rates_output <- test_rates(#
+time_tree = time_tree,#
+cladistic_matrix = cladistic_matrix,#
+clade_partitions = as.list(x = seq(#
+from = ape::Ntip(phy = time_tree) + 1,#
+to = ape::Ntip(phy = time_tree) + ape::Nnode(time_tree), by = 1#
+)),#
+branch_partitions = lapply(X = as.list(x = seq(#
+from = 1,
+to = length(x = time_tree$edge.length), by = 1#
+)), as.list),#
+time_bins = seq(from = 270, to = 252, length.out = 10)#
+)
+plot_rates_tree(#
+test_rates_output = test_rates_output,#
+model_type = "branch", model_number = 9#
+)
+plot_rates_tree(#
+test_rates_output = test_rates_output,#
+model_type = "clade", model_number = 3#
+)
+day_2016

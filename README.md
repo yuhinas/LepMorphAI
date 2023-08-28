@@ -4,6 +4,7 @@ The related pretrained models and data can be downloaded from https://drive.goog
 ### main.py
 Train DFC-VSC.
 The training time depends on your hardware.
+The demo can run with some demo images in the lep_photos_demo and benchmark directories, wichh are provided by TESRI (renamed to TBRI since 2023.08.01)
 
 ### encoding_vsc_repeatN.py 
 Extract 512D features from images.
@@ -50,3 +51,8 @@ We edit these two file from the TPD package of better customized plotting
 ### ./R/bootWingChars/bootWingChars.R
 Use bootstrapping to estimate and compare means and variance in wing color patterning
 
+### ./R/BAMM/BAMMplots.r
+The analyses related to diversitification rates such as the BAMM, rate through time plot, and phyloEM
+
+### ./R/BAMM/trait_model.tests.R
+The results comparison of evolutionary models (e.g. Brownian and OU,... etc.) fitted with our phylogeny and trait values
