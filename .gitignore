@@ -165,3 +165,7 @@ R/phylo_test/sandbox_deprecated/
 R/phylo_test/wings_multivar_shap/
 R/phylo_test/wings_multivar_shap_simple/
 rec_correlation_test/real_samples/
+R/mai_tmp_exp/
+.gitignore.swp
+.gitignore~
+..gitignore.un~
