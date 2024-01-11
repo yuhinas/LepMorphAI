@@ -38,7 +38,7 @@ addBAMMshifts(bestshift,cex=2)
 #rate through time plot for all lepidopteran
 mrca(comp.tree)['Micropterigidae','Sphingidae'];
 #node 93 all moths and butterflies
-plotRateThroughTime(STRAPP.tree, avgCol = 'black', xlim = c(2.5,0), ylim = c(0,10), cex.axis = 1, cex.lab = 1, intervalCol = 'grey50', intervals = c(0.05, 0.95), opacity = 1, ratetype = 'netdiv');
+netdivplot = plotRateThroughTime(STRAPP.tree, avgCol = 'black', xlim = c(2.5,0), ylim = c(0,10), cex.axis = 1, cex.lab = 1, intervalCol = 'grey50', intervals = c(0.05, 0.95), opacity = 1, ratetype = 'netdiv');
 abline(v = 1.4, lty = 2);#angiosperm
 
 #plot cophylogeny if you want to see 
@@ -112,11 +112,23 @@ par(mfrow=c(2,3));
 phenogram(newtree,pc1trait, ylab = "PC1",fsize=.5);
 phenogram(newtree,pc2trait, ylab = 'PC2',fsize=.5);
 phenogram(newtree,pc3trait, ylab = 'PC3',fsize=.5);
-dtt(newtree,pc1trait,nsim=1000);
-dtt(newtree,pc2trait,nsim=1000);
-dtt(newtree,pc3trait,nsim=1000);
+dtt_pc1 = dtt(newtree,pc1trait,nsim=1000);
+dtt_pc2 = dtt(newtree,pc2trait,nsim=1000);
+dtt_pc3 = dtt(newtree,pc3trait,nsim=1000);
+
+dtt_pc2$times
+dtt_pc2$dtt
+
+plot(x=dtt_pc1$times, y=dtt_pc1$dtt)
+Ma1 =  (1-dtt_pc1$times) * (max(newtree$edge.length) - min(newtree$edge.length))
+# Ma2 =  - (1-dtt_pc2$times) * (max(newtree$edge.length) - min(newtree$edge.length))
+# Ma3 =  - (1-dtt_pc3$times) * (max(newtree$edge.length) - min(newtree$edge.length))
+Ma = Ma1
+ma_dtt_df = data.frame(Ma=Ma, DTT_PC1=dtt_pc1$dtt, DTT_PC2=dtt_pc2$dtt, DTT_PC3=dtt_pc3$dtt)
+write.csv(ma_dtt_df, 'ma_dtt_pcs.csv')
+
 #geiger disparity through time PC1-3
-#BM expectation inm ultivariate space. test state = deviation from BM
+#BM expectation in multivariate space. test state = deviation from BM
 
 
 #PhylogeneticEN analysis morpho rate shift

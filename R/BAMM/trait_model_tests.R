@@ -1,3 +1,4 @@
+#install.packages(c('geiger', 'OUwie'))
 #to test the model fit to continuous traits PC1~3
 library(phytools);
 library(geiger);

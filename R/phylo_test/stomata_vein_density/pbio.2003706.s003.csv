@@ -1,0 +1,598 @@
+Species,age,lg_um,Ds_mm-2,Dv_mm-1,clade
+Komlopteris nordenskioeldii,172.55,57.4,NA,NA,Gymnosperm
+Sewardiodendron laxum ,168.4,31.2,NA,NA,Gymnosperm
+Ginkgo huttoni,168.4,24,NA,NA,Gymnosperm
+Ginkgo yimaensis,168.4,30,NA,NA,Gymnosperm
+Baiera cf. furcata,162,17.5,NA,NA,Gymnosperm
+Yimaia qinghaiensis,162,12.5,NA,NA,Gymnosperm
+Pseudofrenelopsis dalatzensis,140,42.5,NA,NA,Gymnosperm
+Pseudofrenelopsis papillosa,140,30,NA,NA,Gymnosperm
+Pseudoctenis ornata,140,66.7,NA,NA,Gymnosperm
+Athrotaxites berryi,137.75,15.7,NA,NA,Gymnosperm
+Novaolindia dubia,137.8,32.5,NA,NA,Gymnosperm
+Frenelopsis varians,135,69,NA,NA,Gymnosperm
+Ptilophyllum elongatum,129,50,NA,NA,Gymnosperm
+Eucalyptophyllum oblongifolium,122.55,12.5,NA,NA,Angiosperm
+Amborella trichopoda ,122.55,14,NA,NA,Angiosperm
+Celastrophyllum obovatum,122.55,15,NA,NA,Angiosperm
+Sarcandra glabra,122.55,36.3,NA,NA,Angiosperm
+Ginkgo coriacea,122.55,17.5,NA,NA,Gymnosperm
+Cf. Ficophyllum,122.55,16,NA,NA,Incertae sedis
+Dispersed Cuticle Type #2,122.55,20,NA,NA,Incertae sedis
+Dispersed Cuticle Type #6,122.55,12.5,NA,NA,Incertae sedis
+Araucaria grandifolia,122.5,54,NA,NA,Gymnosperm
+Tarphyderma glabra,118.5,44,NA,NA,Gymnosperm
+Nehvizdyella bipartita ,96.6,17.5,NA,NA,Gymnosperm
+Eretmophyllum obtusum ,96.6,30,NA,NA,Gymnosperm
+Microaltingia apocarpela,89.5,11.4,NA,NA,Angiosperm
+Araucaria antarctica,82.55,87.5,NA,NA,Gymnosperm
+Margeriella cretacea,82.55,38,NA,NA,Gymnosperm
+Brachyphyllum patens,75.65,60,NA,NA,Gymnosperm
+Bandulskaia aestuaria,52.2,21,NA,NA,Angiosperm
+Taxodium balticum,44.85,24,NA,NA,Gymnosperm
+Dendropanax eocenesis,44.8,19,NA,NA,Angiosperm
+Philodendron limnestis ,44.8,22,NA,NA,Angiosperm
+Rhodomyrtophyllum pasekovicum,44.8,13.8,NA,NA,Gymnosperm
+Equisetum clarnoi,44.8,40,NA,NA,Sphenopsid
+Knightiophyllum wilcoxianum,44.8,24,NA,NA,Angiosperm
+Berhamniphyllum claibornense,44.8,16.5,NA,NA,Angiosperm
+Paleorubiaceophyllum eocenicum (var. eocenicum),44.8,15,NA,NA,Angiosperm
+Paleorubiaceophyllum eocenicum (var. lawrensis),44.8,18.7,NA,NA,Angiosperm
+Cunninghamia nodensis,44.26,31,NA,NA,Gymnosperm
+Araucaria pararaucana,35.55,83,NA,NA,Gymnosperm
+Taxodium dubium,18.43,27.8,NA,NA,Gymnosperm
+Platanus sp.,18,21.5,NA,NA,Angiosperm
+Lusaticutis miocenica,14.2,34.5,NA,NA,Angiosperm
+Pseudofagus idahoensis,14.2,23,NA,NA,Angiosperm
+Alnus gaudinni,14.18,13,NA,NA,Angiosperm
+Alseodaphe hainanesis,13.79,26,NA,NA,Angiosperm
+Alnus menzelii,13.32,13,NA,NA,Angiosperm
+Alnus julianiformis,13.32,10,NA,NA,Angiosperm
+Pinus foisyi,8.47,75,NA,NA,Gymnosperm
+Ginkgo adiantoides ,8.47,27,NA,NA,Gymnosperm
+Betula plioplatyptera,5.42,22.5,NA,NA,Angiosperm
+Betula subpubescens,5.42,22.6,NA,NA,Angiosperm
+Betula sp.,5.42,16.7,NA,NA,Angiosperm
+Carpinus grandis,5.42,17.1,NA,NA,Angiosperm
+Cryptomeria sp.,5.1,30,NA,NA,Gymnosperm
+Ginkgo adiantoides ,5,31.2,NA,NA,Gymnosperm
+Gingko adiantoides ,3.96,34,NA,NA,Gymnosperm
+Daerycarpus carpenterii,1.66,23,NA,NA,Gymnosperm
+Callitris strahanensis,1.66,20,NA,NA,Gymnosperm
+Quercus pseudocastanea,10,NA,685,NA,Angiosperm
+Quercus pseudocastanea,10,NA,667,NA,Angiosperm
+Unknown Arundinoideae,10,NA,285,NA,grassC3
+Sequoia sempevirens,15,NA,85,NA,conifer
+Platanus sp.,18,NA,797,NA,Angiosperm
+Knightia excelsa,45,NA,596,NA,Angiosperm
+Ocotea obtusifolia,45,NA,364,NA,Angiosperm
+Sequoia chinensis,45,NA,60,NA,Gymnosperm
+Cinnamomum wonnacotti,50,NA,321.4,NA,Angiosperm
+Dacrycarpus eocinica,50,NA,252,NA,Gymnosperm
+Decussocarpus brownei,50,NA,116,NA,Gymnosperm
+Falcatifolium australis,50,NA,158,NA,Gymnosperm
+Prumnopitys lanceolata,50,NA,200,NA,Gymnosperm
+Prumnopitys tasmanica,50,NA,178,NA,Gymnosperm
+Pandanites trinervis,80,NA,144,NA,Angiosperm
+Brachyphyllum patens,95,NA,57,NA,conifer
+Frenelopsis hogeneggeri,95,NA,100,NA,conifer
+Frenelopsis kaneviensis,95,NA,30,NA,conifer
+Frenelopsis veneta,95,NA,90,NA,conifer
+Pseudofrenelopsis nathorstiana,100,NA,115.1,NA,conifer
+Pseudofrenelopsis parceramosa,100,NA,42.5,NA,conifer
+Watsoniocladus virginiensis,100,NA,45.6,NA,conifer
+Araucaria acutifoliatus,105,NA,42,NA,conifer
+Araucaria carinatus,105,NA,110,NA,conifer
+Araucaria falcatus,105,NA,67,NA,conifer
+Araucaria grandifolia,105,NA,40,NA,conifer
+Araucaria lanceolatus,105,NA,32,NA,conifer
+Araucaria seorsum,105,NA,28,NA,conifer
+Glenrosa pagiophylloides,130,NA,28,NA,conifer
+Glenrosa texensis,130,NA,48,NA,conifer
+Frenelopsis varians,140,NA,31,NA,conifer
+Pseudofrenelopsis dalatzensis,140,NA,72.3,NA,conifer
+Pseudofrenelopsis heishanensis,140,NA,61.9,NA,conifer
+Pseudofrenelopsis papillosa,140,NA,55.3,NA,conifer
+Pseudoctenus ornata,140,NA,14.5,NA,cycad
+Otozamites ornatus,140,NA,69,NA,cycadeoid
+Sagenopteris inequilateralis,140,NA,40,NA,cytoniales
+Czekanowskia nipponica,150,NA,32,NA,ginkgophyte
+Czekanowskia turneri,150,NA,24,NA,ginkgophyte
+Pagiophyllum peregrinum,168,NA,109,NA,conifer
+Brachyphyllum negevensis,170,NA,40,NA,conifer
+Brachyphyllum pulcher,170,NA,50,NA,conifer
+Czekanowskia nizhonia,175,NA,50,NA,ginkgophyte
+Sphenobaiera huangii,190,NA,48,NA,ginkgophyte
+Nothofagus pachyphylla,2,20.9,NA,NA,Angiosperm
+Callitris strahanensis,2,16.6,NA,NA,Gymnosperm
+Dacrycarpus carpenterii,2,19.5,NA,NA,Gymnosperm
+Microcachrys tetragona,2,15.9,NA,NA,Gymnosperm
+Alseodaphne hainanensis,5,24.2,NA,NA,Angiosperm
+Equisetum sp.,5,50.2,NA,NA,Sphenophyte
+Alnus gaudinii,10,24.9,NA,NA,Angiosperm
+Betula subpubescens,10,22.2,NA,NA,Angiosperm
+Betula plioplatyptera,10,27.8,NA,NA,Angiosperm
+Carpinusg randis,10,21.9,NA,NA,Angiosperm
+Carpinus grandis,10,18.4,NA,NA,Angiosperm
+Nothofagus novaezealandiae var. novaezealandiae[37],10,21.4,NA,NA,Angiosperm
+Ilex protocornuta[38],10,22.2,NA,NA,Angiosperm
+Ilex geissertii[39],10,24.2,NA,NA,Angiosperm
+Pseudodioon akyoli[34],10,66.6,NA,NA,Cycad
+Sequoia sempivirens[35],10,30.5,NA,NA,Gymnosperm
+Ginkgo adiantoides[33],11,29.1,NA,NA,Gymnosperm
+Alnus menzelii[32],15,15.9,NA,NA,Angiosperm
+Fagus silesiaca[32],15,15.9,NA,NA,Angiosperm
+Taxodium dubium[32],15,30.5,NA,NA,Gymnosperm
+Sequoia sempevirens,15,70.9,NA,NA,Gymnosperm
+Taxodium dubium[31],20,22.2,NA,NA,Gymnosperm
+Vepris sp[30],27,13.9,NA,NA,Angiosperm
+Vepris sp[30],27,13.9,NA,NA,Angiosperm
+Nothofags tasmanica[26],30,27.8,NA,NA,Angiosperm
+Rhodomyrtus australis[26],30,21.7,NA,NA,Angiosperm
+Myrtaciphyllum brochidodromum[26],30,30.5,NA,NA,Angiosperm
+Myrtaciphyllum annulatum[26],30,24.9,NA,NA,Angiosperm
+Banksieaephyllum fastlgatum[26],30,23.8,NA,NA,Angiosperm
+Banksieaephyllum longifolium[26],30,23.1,NA,NA,Angiosperm
+Populus davidiana[29],30,27.8,NA,NA,Angiosperm
+Myrtaciphyllum brochidodromum[26],30,30.5,NA,NA,Angiosperm
+Dioonopsis japonica[27],30,27.8,NA,NA,Cycad
+Ceratozamia floersheimensis[28],30,22.2,NA,NA,Cycad
+Agathis kendrickii[26],30,21.7,NA,NA,Gymnosperm
+Rhodophyllum pasekovicum,40,34.7,NA,NA,Angiosperm
+Rhodophyllum sinuata,40,34.7,NA,NA,Angiosperm
+"Rhodophyllum sinuata, var. engelhardti",40,55.4,NA,NA,Angiosperm
+Rhodophyllum tristanioides,40,34.7,NA,NA,Angiosperm
+Rhodophyllum rossmasslerii,40,27.8,NA,NA,Angiosperm
+Rhodophyllum psidioides,40,34.7,NA,NA,Angiosperm
+Rhodophyllum sinuatum,40,31.9,NA,NA,Angiosperm
+Rhodophyllum reticulosum,40,41.7,NA,NA,Angiosperm
+Nothofagus muelleri[24],40,27.8,NA,NA,Angiosperm
+Laurophyllum nuytsii[24],40,24.9,NA,NA,Angiosperm
+Laurophyllum acrodromum[24],40,24.9,NA,NA,Angiosperm
+Laurophyllum arcuatum[24],40,24.9,NA,NA,Angiosperm
+Myrtaciphyllum undulatum[25],40,24.2,NA,NA,Angiosperm
+Myrtaciphyllum douglasii[25],40,30.5,NA,NA,Angiosperm
+Lepidozamia hopei,40,63.1,NA,NA,Cycad
+Lepidozamia peroffskyana,40,60.3,NA,NA,Cycad
+Lepidozamia hopeites,40,49.4,NA,NA,Cycad
+Lepidozamia faveolata,40,50.5,NA,NA,Cycad
+Metasequoia milleri,40,20.9,NA,NA,Gymnosperm
+Ocotea obtusifolia,45,30.5,NA,NA,Angiosperm
+Knightiophyllum wilcoxianum,45,19.5,NA,NA,Angiosperm
+Knightia excelsa,45,30.5,NA,NA,Angiosperm
+Sequoia chinensis,45,74.8,NA,NA,Gymnosperm
+Decussocarpus brownei,50,24.9,NA,NA,Gymnosperm
+Falcatifolium australis,50,37.5,NA,NA,Gymnosperm
+Dacrycarpus eocinica,50,37.5,NA,NA,Gymnosperm
+Prumnopitys tasmanica,50,37.5,NA,NA,Gymnosperm
+Prumnopitys lanceolata,50,31.9,NA,NA,Gymnosperm
+Pagiophyllum bladensis,80,24.9,NA,NA,Gymnosperm
+Taeniopteris arctica[23],90,55.4,NA,NA,Fern
+Ginkgoites pluripartita[23],90,69.2,NA,NA,Gymnosperm
+Elatocladus dicksoniana[23],90,69.2,NA,NA,Gymnosperm
+Elatocladus uppernivikensis[23],90,50.2,NA,NA,Gymnosperm
+Ginkgoites pluripartita[23],90,69.2,NA,NA,Gymnosperm
+Pabiania variloba[22],95,34.7,NA,NA,Angiosperm
+Pandemophyllum kvacekii[22],95,27.8,NA,NA,Angiosperm
+Pandemophylum attenuatum[22],95,38.9,NA,NA,Angiosperm
+Longistrethia varidenta[22],95,41.7,NA,NA,Angiosperm
+Pandemophyllum kvacekii[22],95,27.8,NA,NA,Angiosperm
+Pandemophylum attenuatum[22],95,38.9,NA,NA,Angiosperm
+Longistrethia varidenta[22],95,41.7,NA,NA,Angiosperm
+Nilsoniopteris pecinovensis,95,41.7,NA,NA,Cycad
+Frenelopsis hogeneggeri,95,97.1,NA,NA,Gymnosperm
+Frenelopsis kaneviensis,95,69.2,NA,NA,Gymnosperm
+Frenelopsis veneta,95,125,NA,NA,Gymnosperm
+Brachyphyllum patens,95,139.2,NA,NA,Gymnosperm
+Pseudofrenelopsis nathorstiana,100,85.8,NA,NA,Gymnosperm
+Pseudofrenelopsis parceramosa,100,111.4,NA,NA,Gymnosperm
+Watsoniocladus virginiensis,100,90.6,NA,NA,Gymnosperm
+Araucaria grandifolia,105,36.1,NA,NA,Gymnosperm
+Araucaria seorsum,105,69.2,NA,NA,Gymnosperm
+Araucaria lanceolatus,105,69.2,NA,NA,Gymnosperm
+Araucaria acutifoliatus,105,69.2,NA,NA,Gymnosperm
+Araucaria falcatus,105,41.7,NA,NA,Gymnosperm
+Araucaria carinatus,105,48.6,NA,NA,Gymnosperm
+Araucaria otwayensis,105,54.2,NA,NA,Gymnosperm
+Pseudofrenelopsis varians,110,139.2,NA,NA,Gymnosperm
+Pseudofrenelopsis parceramosa,110,111.4,NA,NA,Gymnosperm
+Pseudofrenelopsis intermedia,110,69.2,NA,NA,Gymnosperm
+Pseudofrenelopsis nathorstiana,110,85.8,NA,NA,Gymnosperm
+Pseudoctenis ornata,120,139.2,NA,NA,Cycad
+Tarphyderma glabra,120,66.6,NA,NA,Gymnosperm
+Tomaxellia biforme,120,97.1,NA,NA,Gymnosperm
+Cearania heterophylla[20],120,34.7,NA,NA,Gymnosperm
+Ginkgoites tigrensis[21],120,74.8,NA,NA,Gymnosperm
+Brachyphyllum castatum[19],125,89.2,NA,NA,Gymnosperm
+Equisetum haukeanum[18],136,52.9,NA,NA,Sphenophyte
+Otozamites archangelski,140,93.4,NA,NA,Bennettites
+Otozamites ornatus,140,47.2,NA,NA,Bennettites
+Otozamites parviauriculata,140,85.8,NA,NA,Bennettites
+Otozamites parvus,140,45.7,NA,NA,Bennettites
+Otozamites sanctaecrucis,140,55.4,NA,NA,Bennettites
+Otozamites waltonii,140,69.2,NA,NA,Bennettites
+Ptilophyllum antarcticum,140,41.7,NA,NA,Bennettites
+Ptilophyllum ghiense,140,37.5,NA,NA,Bennettites
+Ptilophyllum hislopi,140,66.6,NA,NA,Bennettites
+Ptilophyllum valvatum,140,74.8,NA,NA,Bennettites
+Pseudoctenus ornata,140,139.2,NA,NA,Cycad
+Gleichenia chaloneri,140,33.4,NA,NA,Fern
+Pseudofrenelopsis dalatzensis,140,104,NA,NA,Gymnosperm
+Pseudofrenelopsis heishanensis,140,139.2,NA,NA,Gymnosperm
+Pseudofrenelopsis papillosa,140,93.4,NA,NA,Gymnosperm
+Sagenopteris inequilateralis,140,37.5,NA,NA,Gymnosperm
+Nilsonia culgowerensi[17],150,41.7,NA,NA,Cycad
+Pterophyllum cycadites[17],150,33.4,NA,NA,Cycad
+Czekanowskia turneri,150,69.2,NA,NA,Gymnosperm
+Taxodiophyllum scoticum[17],150,33.4,NA,NA,Gymnosperm
+Ginkgo longifolius[16],170,55.4,NA,NA,Gymnosperm
+Czekanowskia_microphylla,175,104,50,NA,Gymnosperm
+Brachyphyllum_negevensis,170,27.6,40,NA,conifer
+Brachyphyllum_pulcher,170,60,50,NA,conifer
+Pagiophyllum_peregrinum,168,47,109,NA,conifer
+Czekanowskia_turneri,150,104,22,NA,Gymnosperm
+Czekanowskia_nipponica,150,104,32,NA,Gymnosperm
+Frenoelpsis_varians,140,72,31,NA,conifer
+Pseudofrenelopsis_dalatzensis,140,170,72.3,NA,conifer
+Pseudofrenelopsis_heishanensis,140,162,61.9,NA,conifer
+Pseudofrenelopsis_papillosa,140,132,55.3,NA,conifer
+Pseudoctenis_ornata,140,100,14.5,NA,cycad
+Glenrosa_texensis,130,136,48,NA,conifer
+Clenrosa_pagiophylloides,130,56,28,NA,conifer
+Pseudofrenelopsis_nathorstiana,100,102,115.5,NA,conifer
+Pseudofrenelopsis_parceramosa,100,65,42.5,NA,conifer
+Watsoniocladus_virginiensis,100,65,45.6,NA,conifer
+Cinnamomum_wonnacotti,50,44,321.4,NA,Angiosperm
+Lusaticutis_legulata,50,22.2,487.2,NA,Angiosperm
+Claibornicutis_undulata,50,21.4,375,NA,Angiosperm
+Piliparicutis_obtusifolia,50,22.2,297.5,NA,Angiosperm
+Piliparicutis_claibornensis,50,33.2,264.5,NA,Angiosperm
+Discrepoparicutis_elongata,50,27.6,247.5,NA,Angiosperm
+Saxonicutis_aligerata,50,33.2,264,NA,Angiosperm
+Saxonicutis_eocenia,50,22.2,280.5,NA,Angiosperm
+Platanus_sp,18,20,797.3,NA,Angiosperm
+Quercus_pseudocastanea,10,39,685,NA,Angiosperm
+Quercus_pseudocastanea,10,36.2,667,NA,Angiosperm
+Adiantum,100,NA,NA,4.32,
+Nathorstia alata Matoniaceae,100,NA,NA,5.28,
+Acrostichopteris sp.,110,NA,NA,3.18,
+Angiopteridium ovata,100,NA,NA,4.26,
+Anomozamites nilssoni,170,NA,NA,1.69,
+Arctopteris rarinervis,110,NA,NA,1.71,
+Arctopteris sp. Aff. A. kolymensis,110,NA,NA,1.45,
+Butefia sp.,110,NA,NA,1.46,
+Cladophebis,130,NA,NA,3.78,
+Cladophlebis aktashensis,170,NA,NA,1.81,
+Cladophlebis baja-beeceensis,100,NA,NA,2.45,
+Cladophlebis crenata,100,NA,NA,2.49,
+Cladophlebis denticulata,100,NA,NA,1.93,
+Cladophlebis impressa,100,NA,NA,4.16,
+Cladophlebis methowensis,100,NA,NA,2.4,
+Cladophlebis oblongifolia,110,NA,NA,3.23,
+Cladophlebis sp.,130,NA,NA,3.47,
+Ctenis,100,NA,NA,3.2,
+Ctenis imbricata,110,NA,NA,1.81,
+Ctenis kaneharai,170,NA,NA,1.21,
+Ctenis sulcicaulis,170,NA,NA,1.54,
+Ctenozamites insignis,110,NA,NA,3.52,
+Dammarophyllum,100,NA,NA,1.65,
+Dennstaedtia patagonica,100,NA,NA,1.86,
+Desmiophyllum magnum,110,NA,NA,2.86,
+Desmiophyllum sp. A,100,NA,NA,2.64,
+Desmiophyllum truncatum,100,NA,NA,1.02,
+Dicksonia kendalli,170,NA,NA,3.83,
+Dictyophyllum rugosum,170,NA,NA,4.4,
+Dryopterites,100,NA,NA,0.2,
+Eboracia lobifolia,170,NA,NA,3.07,
+Fern,100,NA,NA,1.24,Fern
+Fern,130,NA,NA,0.83,Fern
+Fern,130,NA,NA,0.96,Fern
+Fern,130,NA,NA,3.2,Fern
+Fern,130,NA,NA,3.4,Fern
+Furcillopteris oblongata,100,NA,NA,2.28,
+Furcillopteris serrata,100,NA,NA,1.82,
+Ginkgo adiantoides,100,NA,NA,1.98,Gymnosperm
+Ginkgo ex gr. Adiantoides,110,NA,NA,4.5,Gymnosperm
+Ginkgo ex gr. Concinna,110,NA,NA,1.1,Gymnosperm
+Ginkgo ex gr. Lepida,110,NA,NA,2.76,Gymnosperm
+Ginkgo huttoni,170,NA,NA,2.02,Gymnosperm
+Ginkgo longifolius,170,NA,NA,1.25,Gymnosperm
+Ginkgoites skottsbergii,100,NA,NA,5.61,
+Gleichenia comptoniaefolia,100,NA,NA,2.85,
+Gleichenia delicatula,100,NA,NA,2.13,
+Gleichenites juliensis,100,NA,NA,3.02,
+Gleichenites nordenskioldi,130,NA,NA,1.45,
+Gleichenites piatnitzkyi,100,NA,NA,3.08,
+Gymno,130,NA,NA,2.51,Gymnosperm
+Gymno,130,NA,NA,2.75,Gymnosperm
+Gymnosperm 1,130,NA,NA,1.72,Gymnosperm
+Gymnosperm 2,130,NA,NA,2.75,Gymnosperm
+Gymnosperm 3,130,NA,NA,1.11,Gymnosperm
+Kylikipteris arguta,170,NA,NA,2.15,
+Laceria pulcra,100,NA,NA,2.67,
+Marattia anglica,170,NA,NA,1.16,
+Matonidium goepperti,170,NA,NA,3.19,
+Microphyllopteris delicata,100,NA,NA,1.24,
+Nageiopsis zamioides,110,NA,NA,3.54,
+Nageopteris sp.,100,NA,NA,2.12,
+Nehvizdya penalveri,110,NA,NA,0.97,
+Nilsonia decurrens,100,NA,NA,3.41,
+Nilssonia compta,170,NA,NA,1.65,
+Nilssonia kendalli,170,NA,NA,2.2,
+Nilssonia sp. Cf. N. decursiva,110,NA,NA,1.45,
+Nilssonia sp. Cf. N. serotina,110,NA,NA,1.65,
+Nilssonia tenuicaulis,170,NA,NA,2.47,
+Nilssonia tenuinervis,170,NA,NA,3.51,
+Nilssonia tenuinervus,110,NA,NA,2.93,
+Nilssoniopteris major,170,NA,NA,2.15,
+Nilssoniopteris vittata,170,NA,NA,2.65,
+NMNH 499351,110,NA,NA,1.43,
+Orthoneura longissima,100,NA,NA,2.47,
+Osmundophyllum,100,NA,NA,1.5,
+Otozamites beani,170,NA,NA,3.51,
+Otozamites gramineus,170,NA,NA,3.87,
+Otozamites sp. 1,130,NA,NA,3.76,
+Otozamites tenuatus,170,NA,NA,5.39,
+Pachypteris crassa,100,NA,NA,4.58,
+Pachypteris sp. 2,130,NA,NA,3.6,
+Phlebopteris dunkerii,130,NA,NA,2.1,
+Phlebopteris polypodoides,170,NA,NA,2.05,
+Phyllopteroides cf. P. laevis,100,NA,NA,2.48,
+Pitophyllum acutifolium,100,NA,NA,3.37,
+Platypterigium densinerve,110,NA,NA,2.34,
+Podozamites,130,NA,NA,2.1,
+Podozamites decresens,100,NA,NA,5.72,
+Podozamites distantinervis,110,NA,NA,3.41,
+Podozamites varifolia,100,NA,NA,1.57,
+Pseudoctenis oleosa,170,NA,NA,0.98,
+Pterophyllum palmulum,100,NA,NA,1.94,
+Pterophyllum rectangulare,100,NA,NA,2.46,
+Pterophyllum sp. 1,130,NA,NA,1.19,
+Pterophyllum sp. 5,130,NA,NA,4.47,
+Ptilophyllum hirsutum,170,NA,NA,2.94,
+Ptilophyllum pectinoides,170,NA,NA,2.68,
+Ptilophyllum sp. 2,130,NA,NA,3.83,
+Ptilophyllum sp.4,130,NA,NA,1.59,
+Sagenopteris aff. Williamsii,100,NA,NA,1.16,
+Sagenopteris colpodes big,170,NA,NA,0.72,
+Sagenopteris colpodes small,170,NA,NA,1.25,
+Sagenopteris elliptica,110,NA,NA,1.07,
+Sagenopteris mexicana,100,NA,NA,1.16,
+Sagenopteris panda,100,NA,NA,2.32,
+Sagenopteris phillipsi,170,NA,NA,2.27,
+Sagenopteris sp.,110,NA,NA,1.82,
+Sectilopteris psilotoides,100,NA,NA,5.08,
+Sphenobaiera biloba,100,NA,NA,1.08,
+Sphenobaiera ex gr.,100,NA,NA,1.1,
+Sphenobaiera ex gr. Longifolia,110,NA,NA,1,
+Sphenobaiera gyron,170,NA,NA,1.04,
+Sphenolepidium,100,NA,NA,3.12,
+Taeniopteris,130,NA,NA,1.46,
+Taeniopteris (?) sp.,100,NA,NA,0.87,
+Taeniopteris lundgreni,110,NA,NA,1.44,
+Thyrsopteris decurrens,100,NA,NA,1.87,
+Todites denticulatus,170,NA,NA,1.86,
+Todites williamsoni,170,NA,NA,3.13,
+Turolia escuchaensis,110,NA,NA,1.02,
+Uncertain gymnosperm,130,NA,NA,1.93,
+Weichselia reticulata,110,NA,NA,4.02,
+Weichselia reticulata,130,NA,NA,5.67,
+Winthropteris ovalis,100,NA,NA,1.94,
+Zamites,130,NA,NA,2.44,
+Zamites gigas,170,NA,NA,3.54,
+Zamites sp.,110,NA,NA,3.58,
+Asiatifolium elegans,132.35,NA,NA,3.67,Angiosperm
+Shenkuoa caloneura,132.35,NA,NA,5.23,Angiosperm
+"eudicot-like leaf, chloranthoid teeth",127.5,NA,NA,2.45,Angiosperm
+Protoeaephyllum (nymphaeoid leaf),127.5,NA,NA,4.28,Angiosperm
+Ficophyllum sp.,127.5,NA,NA,1.96,Angiosperm
+Angiosperm sp.,125.3,NA,NA,2.85,Angiosperm
+Angiosperm sp.,125.3,NA,NA,2.92,Angiosperm
+Quercophyllum tenuinerve,118.5,NA,NA,3.32,Angiosperm
+Nymphaeaphyll morphotype,119,NA,NA,3.61,Angiosperm
+2mf) Lobate serrate morphotype,119,NA,NA,2.06,Angiosperm
+4mFÊ trifoliate morphotype,119,NA,NA,2.81,Angiosperm
+5 mF pinnatilobate nanophyll morphotype,119,NA,NA,4.23,Angiosperm
+Endressinia brasiliana,119,NA,NA,5.23,Angiosperm
+Araripia,119,NA,NA,4.12,Angiosperm
+broad angiosperm,119,NA,NA,3.37,Angiosperm
+narrow angiosperm,119,NA,NA,4.56,Angiosperm
+Pluricarpellatia,119,NA,NA,2.39,Angiosperm
+Nymphioid Crato Fossil,119,NA,NA,1.23,Angiosperm
+Angiosperm Type B,112.4,NA,NA,1.87,Angiosperm
+Celastrophyllum latifolium,110.4,NA,NA,3.12,Angiosperm
+Celastrophyllum cf. C. obovatum,110.4,NA,NA,3.12,Angiosperm
+Celastrophyllum sp. Drewrys Bluff,110.4,NA,NA,3.3,Angiosperm
+DBLT #1,110.4,NA,NA,3.21,Angiosperm
+Eucalyptophyllum oblongifolium,110.4,NA,NA,3.12,Angiosperm
+cf. Ficophyllum,110.4,NA,NA,3.87,Angiosperm
+Ficophyllum crassinerve,110.4,NA,NA,3.51,Angiosperm
+Proteaephyllum reniforme,110.4,NA,NA,2.81,Angiosperm
+Rogersia angustifolia,110.4,NA,NA,3.73,Angiosperm
+Sapindopsis elliptica,110.4,NA,NA,4.11,Angiosperm
+Vitiphyllum multifidum,110.4,NA,NA,3.32,Angiosperm
+Sapindopsis magnifolia,104.2,NA,NA,7.82,Angiosperm
+Sapindopsis sp.,104.2,NA,NA,8.12,Angiosperm
+Sapindopsis sp.,104.2,NA,NA,6.73,Angiosperm
+Araliaephyllum sp. complex,104.2,NA,NA,6.5,Angiosperm
+unknown angiosperm sp. 2,104.2,NA,NA,5.65,Angiosperm
+unknown angiosperm sp. 3,104.2,NA,NA,6.86,Angiosperm
+Nelumbites extenunervis,104.2,NA,NA,3.86,Angiosperm
+Sapindopsis sp.,104.2,NA,NA,7.2,Angiosperm
+Sapindopsis sp. ,104.2,NA,NA,7.12,Angiosperm
+Sapindopsis variablis,104.2,NA,NA,7.61,Angiosperm
+Kachaikenia compuesta,101.2,NA,NA,5.36,Angiosperm
+Rogersia australis,101.2,NA,NA,3.29,Angiosperm
+Morphotype 1 angiosperm,101.2,NA,NA,2.82,Angiosperm
+Morphotype 4 angiosperm,101.2,NA,NA,2,Angiosperm
+Morphotype 3 angiosperm,101.2,NA,NA,6.11,Angiosperm
+Morfotipo A,101.2,NA,NA,6.01,Angiosperm
+Thorhallenia dentata,101.2,NA,NA,7.79,Angiosperm
+Morfotipo B,101.2,NA,NA,7.45,Angiosperm
+Klitzschophyllites choffatii,102.7,NA,NA,1.61,Angiosperm
+Magnoliophyta sp1 ,101.2,NA,NA,6.91,Angiosperm
+Myrtoidea patagonica ,101.2,NA,NA,5.13,Angiosperm
+Celastrophyllum arcinerve,104.2,NA,NA,3.83,Angiosperm
+Eucalyptolaurus (aff. Lauraceae),102.7,NA,NA,6.6,Angiosperm
+Eucalypolaurus deprei,102.7,NA,NA,7.8,Angiosperm
+Ploufolia cerciforme,102.7,NA,NA,2.62,Angiosperm
+Longstrethia aspera,102.7,NA,NA,3.654,Angiosperm
+Liriophyllum kansense,102.7,NA,NA,5.76,Angiosperm
+Nelumbintes crassinervum,102.7,NA,NA,3.12,Angiosperm
+Crassideniticulum decurrens,102.7,NA,NA,3.61,Angiosperm
+Wolfiophyllum pfaffiana,102.7,NA,NA,3.45,Angiosperm
+Rogersia potteri,102.7,NA,NA,3.46,Angiosperm
+Rogersia kansense,102.7,NA,NA,3.89,Angiosperm
+Credneria cyclophylla,102.7,NA,NA,7.84,Angiosperm
+Sapindopsis bagleyae,102.7,NA,NA,7.12,Angiosperm
+Sapindopsis retallackii,102.7,NA,NA,7.75,Angiosperm
+Anisodromum wolfei,102.7,NA,NA,6.56,Angiosperm
+Dicotylophyllum leptovena,102.7,NA,NA,5.5,Angiosperm
+Meiophyllum expansolobum,102.7,NA,NA,7.5,Angiosperm
+Meiophyllum kowalskiae,102.7,NA,NA,6.47,Angiosperm
+Rogersia parlatorii,102.7,NA,NA,3.27,Angiosperm
+Crassidenticulum decurrens,102.7,NA,NA,3.61,Angiosperm
+Crassidenticulum landisae,102.7,NA,NA,3.37,Angiosperm
+Trochodendroides elliptica,102.7,NA,NA,4.64,Angiosperm
+Eoplatanus serrata,102.7,NA,NA,7.84,Angiosperm
+Credneria quadrata,102.7,NA,NA,8.56,Angiosperm
+Aspidiophyllum denticulatum,102.7,NA,NA,8.46,Angiosperm
+Hickeyphyllum imhofii,102.7,NA,NA,3.36,Angiosperm
+Dicotylophyllum braunii,102.7,NA,NA,5.45,Angiosperm
+Wolfiophyllum daphneoides,102.7,NA,NA,4.23,Angiosperm
+Dicotylophyllum huangi,102.7,NA,NA,8.76,Angiosperm
+Dicotylophyllum sp.,102.7,NA,NA,4.88,Angiosperm
+Wolfiophyllum heigii,102.7,NA,NA,4.12,Angiosperm
+Rogersia lottii,102.7,NA,NA,4.65,Angiosperm
+Landonia mullerii,102.7,NA,NA,5.78,Angiosperm
+Sungia delicatus,102.7,NA,NA,4.9,Angiosperm
+Dicotophyllum aliquantuliserratum,100,NA,NA,9.66,Angiosperm
+Longstrethia varidentata,100,NA,NA,4.36,Angiosperm
+Dennsinervum kaulii,100,NA,NA,4.12,Angiosperm
+Reynoldsiaophyllum nebraskense,100,NA,NA,2.56,Angiosperm
+Didromophyllum basingeri,100,NA,NA,6.13,Angiosperm
+New genus A,100,NA,NA,5.86,Angiosperm
+Crassidenticulum decurrens,100,NA,NA,4.12,Angiosperm
+Landonia calophylla,100,NA,NA,4.98,Angiosperm
+Pabiania variloba,100,NA,NA,7.52,Angiosperm
+Pandemophyllum kvacekii,100,NA,NA,8.78,Angiosperm
+Pandemophyllum sp. ,100,NA,NA,4.62,Angiosperm
+Acritodromum ellipticum,100,NA,NA,4.8,Angiosperm
+New Genus B,100,NA,NA,5.61,Angiosperm
+Dicotylophyllum angularis,100,NA,NA,6.85,Angiosperm
+Dicotylophyllum rosafluviatilis,100,NA,NA,6.96,Angiosperm
+Pandemophyllum attenuatum,100,NA,NA,5.61,Angiosperm
+"Laurelia amarillana Berry 1937a, type material USNM-37870",95.4,NA,NA,3.31,Angiosperm
+"Bignonites chalianum Berry 1937a, Type material USNM-37874",95.4,NA,NA,6.16,Angiosperm
+"MA 100 morphotype (ME3-02 field number, collection number:  MPM.-PB 1445)",95.4,NA,NA,5.56,Angiosperm
+"MA 109 morphotype (ME2-05 field number, collection number:  MPM-PB 1309)",95.4,NA,NA,4.16,Angiosperm
+"MA105 morphotype (MA1-110 field number, collection number:  MPM-PB 1371)",95.4,NA,NA,4.76,Angiosperm
+MA102  morphotype (field number ME1-7; collection number: MPM-PB-1323),95.4,NA,NA,2.59,Angiosperm
+MA101 morphotype (field number ME1-321; collection number: MPM-PB-1330),95.4,NA,NA,3.4,Angiosperm
+Jarzenia kanbrasota,95.4,NA,NA,7.84,Angiosperm
+Dennsinervum kaulii,95.4,NA,NA,4.05,Angiosperm
+Crassidenticulum cracendentis,95.4,NA,NA,4.61,Angiosperm
+Manchesterii macrophylla,95.4,NA,NA,8.34,Angiosperm
+Pandemophyllum attenuatum,95.4,NA,NA,6.51,Angiosperm
+Setterholmia rotundifolia,95.4,NA,NA,6.54,Angiosperm
+Wolfiophyllum pfaffiana,95.4,NA,NA,4.8,Angiosperm
+Rogersia dakotensis,95.4,NA,NA,3.84,Angiosperm
+Trochodendroides rhomboideus,95.4,NA,NA,5.6,Angiosperm
+Credneria cyclophylla,95.4,NA,NA,7.89,Angiosperm
+Dicotylophyllum coughlantia,95.4,NA,NA,8.45,Angiosperm
+Setterholmia deleta,95.4,NA,NA,6.12,Angiosperm
+Araliopsoides cretacea,97.8,NA,NA,5,Angiosperm
+Angiosperm,97.8,NA,NA,5.12,Angiosperm
+Angiosperm,97.8,NA,NA,6.23,Angiosperm
+Angiosperm,97.8,NA,NA,5.5,Angiosperm
+Angiosperm,97.8,NA,NA,5.4,Angiosperm
+Lysichiton austriacus ,77.05,NA,NA,3.45,Angiosperm
+Pandanites trinervis,77.05,NA,NA,4.51,Angiosperm
+Sabalites longirhachis,77.05,NA,NA,7.45,Angiosperm
+Monocotylophyllum sp. 1,77.05,NA,NA,5.65,Angiosperm
+Compositiphyllum serratum,77.05,NA,NA,8.12,Angiosperm
+Grebenkia eurpoaea,77.05,NA,NA,6.68,Angiosperm
+Juglandiphyllites cretaceus,77.05,NA,NA,8.14,Angiosperm
+Brasenites krasseri,77.05,NA,NA,7.12,Angiosperm
+Dicotylophyllum proteodies,77.05,NA,NA,9.45,Angiosperm
+Dicotylophyllum species 5,77.05,NA,NA,7.91,Angiosperm
+Ettinghausenia gruenbachiana,77.05,NA,NA,7.8,Angiosperm
+GD01-20223-1,69,NA,NA,8.59,Angiosperm
+GD01-21368-1,69,NA,NA,10.03,Angiosperm
+GD02-21092-1,69,NA,NA,11.72,Angiosperm
+GD06-20753-2,69,NA,NA,11.95,Angiosperm
+GD08-20956-1,69,NA,NA,12.34,Angiosperm
+GD08-20975-2,69,NA,NA,12.41,Angiosperm
+GD08-21266-2,69,NA,NA,14.74,Angiosperm
+GD29-20776-1,69,NA,NA,13.21,Angiosperm
+GD35-20808-35,69,NA,NA,12.2,Angiosperm
+GD53-20353-1,69,NA,NA,11.5,Angiosperm
+GD54-20559-4,69,NA,NA,15.42,Angiosperm
+GD50,69,NA,NA,7.33,Angiosperm
+SA010 morphotype (=Laurophyllum piatnitzkyi Berry 1937b) (field number PL2-883),63.6,NA,NA,11,Angiosperm
+SA010 morphotype (=Laurophyllum piatnitzkyi Berry 1937b) (field number PL2-1120),63.6,NA,NA,10.98,Angiosperm
+SA014 morphotype (=Sterculia acuminataloba Berry 1937b) (field number PL2-696),63.6,NA,NA,8.78,Angiosperm
+SA016 morphotype (field number PL2-1461),63.6,NA,NA,11.64,Angiosperm
+SA019 morphotype (field number PL2-1883),63.6,NA,NA,10.12,Angiosperm
+SA020 morphotype (field number PL2-553),63.6,NA,NA,6.78,Angiosperm
+SA032 morphotype (monocot palm) (field number PL1-189),63.6,NA,NA,8.59,Angiosperm
+SA35 morphotype (field number PL1-894),63.6,NA,NA,10.59,Angiosperm
+ SA039 morphotype (=Paranymphaea aristolochiaformis Berry 1937b) (field number PL1-945),63.6,NA,NA,9.744,Angiosperm
+SA041 morphotype (field number PL2-1150),63.6,NA,NA,8.679,Angiosperm
+SA043 morphotype (field number PL2-321),63.6,NA,NA,6.7,Angiosperm
+SA044 morphotype (field number PL1-980),63.6,NA,NA,12.72,Angiosperm
+SA046 morphotype (= Laurophyllum chubutensis Berry 1937b) (field number PL1-894),63.6,NA,NA,9.12,Angiosperm
+SA049 morphotype (= Myrica premira Berry 1937b) (field number PL2-1260),63.6,NA,NA,13.45,Angiosperm
+SA050 morphotype (field number PL2-622),63.6,NA,NA,8.4,Angiosperm
+SA053 monocot morphotype (field number PL1-688),63.6,NA,NA,6.12,Angiosperm
+SA054 morphotype (field number PL2-508),63.6,NA,NA,5.43,Angiosperm
+SA056 morphotype (field number PL1-823),63.6,NA,NA,8.56,Angiosperm
+SA057 morphotype (field number PL2-518),63.6,NA,NA,11,Angiosperm
+SA058 morphotype (field number PL2-187),63.6,NA,NA,12.57,Angiosperm
+SA059 morphotype (field number PL2-589),63.6,NA,NA,6.98,Angiosperm
+SA060 morphotype (field number PL2-690),63.6,NA,NA,12.02,Angiosperm
+SA073 morphotype (field number LF06-158),61.5,NA,NA,9.81,Angiosperm
+SA074 morphotype (field number LF06-457),61.5,NA,NA,12.1,Angiosperm
+SA075 morphotype (field number LF06-194),61.5,NA,NA,10.12,Angiosperm
+SA061 morphotype (field number PL2-129) ,63.6,NA,NA,4.82,Angiosperm
+SA020 Morphotype (field number PL2-553),63.6,NA,NA,7.57,Angiosperm
+SA079 morphotype (field number LF06-352),61.5,NA,NA,11.45,Angiosperm
+SA020 morphotype (field number PL2-648),63.6,NA,NA,14.36,Angiosperm
+SA004 morphotype (field numberPL2-837),63.6,NA,NA,7.59,Angiosperm
+SA010 morphotype (field number PL2-883),63.6,NA,NA,13.1,Angiosperm
+SA020 morphotype (field number PL2-894),63.6,NA,NA,11.35,Angiosperm
+SA049 morphotype (field number PL2-920),63.6,NA,NA,15.17,Angiosperm
+SA014 morphotype (field number PL2-1206),63.6,NA,NA,10,Angiosperm
+SA004 morphotype (field number PL2-1340),63.6,NA,NA,11.69,Angiosperm
+SA041 morphotype (field number PL2-1386 ),63.6,NA,NA,8.27,Angiosperm
+CJ10,58,NA,NA,7.45,Angiosperm
+CJ20,58,NA,NA,9.87,Angiosperm
+CJ12,58,NA,NA,8.63,Angiosperm
+CJ13,58,NA,NA,8.18,Angiosperm
+CJ6,58,NA,NA,12.56,Angiosperm
+CJ3,58,NA,NA,7.88,Angiosperm
+CJ19,58,NA,NA,10.15,Angiosperm
+CJ20,58,NA,NA,7.34,Angiosperm
+CJ30,58,NA,NA,7.15,Angiosperm
+CJ58,58,NA,NA,6.66,Angiosperm
+CJ40,58,NA,NA,13.9,Angiosperm
+CJ22,58,NA,NA,10.26,Angiosperm
+CJ23,58,NA,NA,2.34,Angiosperm
+CJ24,58,NA,NA,6.67,Angiosperm
+CJ25,58,NA,NA,10.3,Angiosperm
+CJ27,58,NA,NA,10.8,Angiosperm
+CJ28,58,NA,NA,10.56,Angiosperm
+CJ32,58,NA,NA,8.23,Angiosperm
+CJ43,58,NA,NA,8.62,Angiosperm
+CJ49,58,NA,NA,4.04,Angiosperm
+CJ58,58,NA,NA,6.5,Angiosperm
+CJ53,58,NA,NA,10.44,Angiosperm
+CJ82,58,NA,NA,15.65,Angiosperm
+CJ84,58,NA,NA,10.27,Angiosperm
+CJ55,58,NA,NA,14,Angiosperm
+CJ82,58,NA,NA,15.71,Angiosperm
+CJ84,58,NA,NA,10.27,Angiosperm
+CJ62,58,NA,NA,4.7,Angiosperm
+CJ63,58,NA,NA,4.2,Angiosperm
+CJ65,58,NA,NA,5.3,Angiosperm
+CJ108,58,NA,NA,3.81,Angiosperm

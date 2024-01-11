@@ -159,3 +159,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 *.pth
+
+sandbox/
+R/phylo_test/sandbox_deprecated/
+R/phylo_test/wings_multivar_shap/
+R/phylo_test/wings_multivar_shap_simple/
+rec_correlation_test/real_samples/
